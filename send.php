@@ -3,7 +3,7 @@
 $name=$_POST['user-name'];
 $phone=$_POST['user-phone'];
 $email=$_POST['user-email'];
-$to = "s.rieznyk@gmail.com";
+$to = "s.rieznyk@gmail.com, info@system-eco.ru";
 
 $subject = "Заявка Eco System LP";
 
