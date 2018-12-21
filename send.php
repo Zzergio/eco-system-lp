@@ -17,8 +17,20 @@ $message = "
 
 $headers = "Content-type: text/html; charset=UTF-8 \r\n";
 mail ($to, $subject, $message, $headers);
+$mail_status = mail($mail_to, $subject, $body_message, $headers);
 
-header('Location: thanks.html');
-exit();
-
+if ($mail_status) { ?>
+    <script language="javascript" type="text/javascript">
+        alert('\n\n Спасибо! Ваша заявка получена и будет обработана в ближайшее время');
+        window.location = 'index.html';
+    </script>
+<?php
+}
+else { ?>
+    <script language="javascript" type="text/javascript">
+        alert('Произошла ошибка, попробуйте позже.');
+        window.location = 'index.html';
+    </script>
+<?php
+}
 ?>
