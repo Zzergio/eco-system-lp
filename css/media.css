@@ -1,0 +1,463 @@
+/* 1024px */
+
+@media screen and (max-width: 1025px) {
+
+.section-4 {
+	padding-bottom: 25px;
+}
+  
+.section-4 h3 {
+	font-size: 60px;
+}
+
+.description p {
+    font-size: 32px;
+    margin-left: 40px;
+}
+
+.equipment {
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 65px;
+	margin-top: 25px;
+}
+
+.about-device {
+	padding-top: 20px;
+}
+
+.section-4 button {
+	margin-left: -115px;
+	right: auto;
+}
+
+.items {
+	flex-direction: column;
+}
+
+.section-6 {
+	padding-bottom: 45px;
+}
+
+.green-box {
+	margin-top: 25px;
+}
+
+.green-box p {
+	width: 100%;
+}
+
+} 
+
+/* 980px */
+
+@media screen and (max-width: 981px) {
+
+.section-1 {
+	padding: 50px 0 80px 0;
+}
+
+.section-1 h1 {
+	font-size: 36px;
+	line-height: 50px;
+}
+
+.first-screen {
+	flex-direction: column;
+}
+
+.video {
+	text-align: center;
+}
+
+.video-wrap p {
+	margin-bottom: 40px;
+}
+
+.form-1 {
+	padding: 30px 15px 50px 15px;
+	margin: 0 auto; 
+	width: 70%;
+}
+
+.section-2 h2,
+.section-4 h2,
+.section-6 h2 {
+	font-size: 36px;
+}
+
+.title h2 {
+	font-size: 32px;
+}
+
+.section-7 h2 {
+	font-size: 32px;
+	line-height: 1.3em;
+}
+
+.demonstration {
+	flex-direction: column;
+}
+
+.form-2 {
+	padding: 30px 15px 50px 15px;
+	margin: 0 auto; 
+	margin-top: 45px;
+	width: 70%;
+}
+
+input {
+  width: 90%;
+}
+
+.photo {
+	text-align: center;
+	margin-top: 75px; 
+	width: auto;
+}
+
+} 
+
+/* 720px */
+
+@media screen and (max-width: 721px) {
+
+.header-info {
+	flex-direction: column;
+}
+
+.contacts {
+	margin-top: 20px;
+}
+
+.flags {
+	justify-content: center;
+}
+
+.form-1 {
+	padding: 30px 15px 50px 15px;
+	margin: 0 auto; 
+	width: 90%;
+}
+
+.services {
+	align-items: center;
+	margin: 25px 15px 0 15px;
+}
+
+.section-2 {
+	padding: 45px 0;
+}
+
+.section-3 {
+	padding: 45px 0;
+}
+
+.block-text {
+	padding: 45px 25px;
+}
+
+.section-4 {
+	padding: 45px 0 0 0;
+}
+
+.section-4 h3, .section-6 h3 {
+	font-size: 50px;
+}
+
+.description {
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.description p {
+	margin-top: 20px;
+	font-size: 22px;
+}
+
+.section-2 h2,
+.section-4 h2,
+.section-5 h2,
+.section-6 h2,
+.section-7 h2 {
+	font-size: 28px;
+	padding: 22px;
+}
+
+.equipment {
+	padding: 20px 15px 45px 15px;
+}
+
+.about-device {
+	padding-left: 0;
+}
+
+.section-5 {
+	padding: 45px 0;
+}
+
+.content {
+	flex-direction: column;
+	padding: 25px;
+}
+
+.col2 {
+	padding-left: 0;
+}
+
+.section-6 {
+	padding: 45px 0;
+}
+
+.flex-item img {
+	width: 80px;
+}
+
+span.green-text {
+	font-size: 22px;
+}
+
+.green-box p {
+	font-size: 20px;
+}
+
+.items:last-child {
+	padding-bottom: 0;
+}
+
+.section-7 {
+	padding: 45px 15px;
+}
+
+.form-2 {
+	padding: 30px 20px;
+	text-align: center;
+	width: auto;
+	margin-top: 45px;
+}
+
+.form-2 input {
+	margin-left: 20px;
+}
+
+.section-7 p {
+	font-size: 20px;
+}
+
+.white-text {
+	padding: 0 15px;
+	margin-top: 45px; 
+}
+
+.contacts-map {
+	position: absolute;
+	width: 100%; 
+	top: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+} 
+
+/* 480px */
+
+@media screen and (max-width: 481px) { 
+
+.wrapper {
+	padding: 0 15px;
+}
+
+.section-1 h1 {
+	font-size: 28px;
+	line-height: 38px;
+}
+
+.gallery {
+	display: none;
+}
+
+.single-photo {
+	display: block;
+}
+
+.section-1 h1 {
+	font-size: 22px;
+	line-height: 35px;
+}
+
+.flags li {
+	padding-left: 15px;
+}
+
+.flags li:first-child {
+	padding-left: 0;
+}
+
+.section-1 p {
+	font-size: 20px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.video-wrap p {
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 20px;
+	line-height: 1.5em;
+}
+
+.section-2 h2,
+.section-4 h2,
+.section-6 h2 {
+	line-height: 1.3em;
+	font-size: 24px;
+}
+
+.services {
+	align-items: center;
+	margin: 25px 0 0 0;
+}
+
+.services p {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin-left: 25px;
+}
+
+.section-3 {
+	padding: 45px 0;
+}
+
+.section-3 h2 {
+	font-size: 24px;
+}
+
+.section-3 p {
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+.title h2 {
+	font-size: 24px;
+}
+
+.content p{
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+.flex-item img {
+	width: 60px;
+}
+
+.small-contact span {
+	font-size: 28px;
+}
+
+.small-contact a {
+	font-size: 20px;
+}
+
+}
+
+/* 320 px */
+
+@media screen and (max-width: 321px) {
+
+.logo img{
+	width: auto;
+	text-align: center;
+}
+
+.ico-phone img{
+	width: 45px;
+}
+
+.small-contact span {
+	font-size: 24px;
+}
+
+.small-contact a {
+	font-size: 20px;
+}
+
+.languages {
+	height: 36px;
+}
+
+.flags a img {
+	width: 30px;
+}
+
+.section-1 h1 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.section-1 p {
+	font-size: 18px;
+	line-height: 1.5em;
+	font-weight: normal;
+	color: #fff;
+}
+
+.services img {
+	width: 50px;
+}
+
+.services p {
+	font-size: 16px;
+	line-height: 1.5em;
+	margin-left: 10px;
+}
+
+.content {
+	background: #fff;
+	padding: 45px 15px;
+}
+
+.content p{
+	font-size: 16px;
+	line-height: 1.5em;
+	padding-left: 35px;
+}
+
+.content img {
+	width: 25px;
+}
+
+.flex-item img {
+	display: none;
+}
+
+.section-7 h2 {
+	font-size: 22px;
+	padding: 15px;
+}
+
+.section-7 h3 {
+	font-size: 20px;
+}
+
+.section-7 p {
+	font-size: 18px;
+}
+
+.demonstration {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.white-text {
+	padding:0;
+	margin-top: 45px; 
+}
+
+.contacts-map {
+	position: absolute;
+	width: 100%;
+	top: 100%;
+}
+
+}

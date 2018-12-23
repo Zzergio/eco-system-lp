@@ -19,7 +19,7 @@ body {
 
 .wrapper {
 	max-width: 1230px;
-	min-width: 320px;
+/*	min-width: 320px; */
 	margin: 0 auto;
 	padding: 0 30px;
 }
@@ -80,6 +80,10 @@ body {
 	font-weight: 500;
 }
 
+.white-space {
+	white-space: nowrap;
+}
+
 /* 02-Languages */
 
 .languages {
@@ -99,6 +103,10 @@ ul.flags {
 
 .flags li {
 	padding-left: 25px;
+}
+
+.flags li:first-child {
+	padding-left: 0;
 }
 
 .flags a img {
@@ -141,10 +149,31 @@ ul.flags {
 	color: #fff;
 }
 
-.video p {
-	font-size: 16px;
+.video-wrap {
+	flex-basis: 50%;
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%;  /* sets the height of the container to 16:9 (4:3 - 75%) */
+	padding-top: 0px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video-wrap p {
+	font-size: 18px;
 	font-weight: 400;
-	padding-top: 20px;
+	margin-top: 20px;
+	line-height: 1.5em;
 }
 
 .first-screen {
@@ -152,11 +181,12 @@ ul.flags {
 }
 
 .form-1 {
+	flex-basis: 50%;
 	border: 3px #8fe03b solid;
 	position: relative; 
 	padding: 45px;
 	margin-left: 45px; 
-	width: 100%; 
+	 
 }
 
 .form-1 h3 {
@@ -310,11 +340,23 @@ input:focus {
 	padding: 0;
 }
 
+.description {
+	align-items: center;
+}
+
 .description p {
 	font-size: 32px;
 	font-weight: bold;
 	color: #75b233;
 	margin-left: 80px;
+}
+
+.single-photo {
+	display: none;
+}
+
+.single-photo img{
+	width: 100%;
 }
 
 .equipment {
@@ -331,7 +373,7 @@ input:focus {
 }
 
 .about-device {
-	padding-left: 45px;
+	padding-left: 25px;
 }
 
 .section-4 button  {
@@ -506,12 +548,12 @@ span.green-text {
 .photo {
 	text-align: left;
 	margin-top: 75px; 
-	width: auto;
 }
 
 .photo img {
 	border: 3px #8fe03b solid;
 	margin-bottom: 20px;
+	width: 100%;
 }
 
 .form-2 {
