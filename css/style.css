@@ -221,7 +221,8 @@ ul.flags {
 
 /* FORM STYLES */
 
-input {
+.input-white input,
+.input-popup input {
   padding: 15px 0;
   margin-bottom: 10px;
   background: transparent;
@@ -238,20 +239,24 @@ input:focus {
 	border-bottom: 2px #2f911e dashed;
 }
 
-.input ::-webkit-input-placeholder {
+.input-white ::-webkit-input-placeholder {
 	color:#fff;
 }
 
-.input ::-moz-placeholder {
+.input-white ::-moz-placeholder {
 	color:#fff;
 } 
 
-.input :-moz-placeholder {
+.input-white :-moz-placeholder {
 	color:#fff;
 } 
 
-.input :-ms-input-placeholder {
+.input-white :-ms-input-placeholder {
 	color:#fff;
+}
+
+.input-popup input{
+	color: black;
 }
 
 /* Section-2 */

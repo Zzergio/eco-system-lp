@@ -59,9 +59,127 @@
 	color:#fff;
 }
 
+.input-3 ::-webkit-input-placeholder {
+	font-size: 18px;
+	color:#000;
+}
+
+.input-3 ::-moz-placeholder {
+	font-size: 18px;
+	color:#000;
+} 
+
+.input-3 :-moz-placeholder {
+	font-size: 18px;
+	color:#000;
+} 
+
+.input-3 :-ms-input-placeholder {
+	font-size: 18px;
+	color:#000;
+}
+
+
 .services p {
 	font-size: 24px;
 	margin-right: 25px;
 	unicode-bidi: bidi-override; 
 	direction: rtl; 
+}
+
+.description h3 {
+	padding-left: 15px;
+}
+
+.content img{
+	float: right;
+}
+
+.content p{
+	padding-right: 65px;
+	padding-left: 0;
+	text-align: right;
+	unicode-bidi: bidi-override; 
+	direction: rtl; 
+}
+
+.col2 {
+	padding-left: 0;
+	padding-right: 25px;
+}
+
+.green-box {
+	display: flex;
+	align-items: center;
+	border: 3px #8fe03b solid;
+	padding: 18px;
+
+}
+
+.green-box p {
+	font-size: 24px;
+	font-weight: 500;
+	width: 500px;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+span.green-text {
+	font-size: 30px;
+	font-weight: 500;
+	color: #75b233;
+	padding-left: 25px;
+	text-align: right;
+}
+
+.flex-item {
+	display: flex;
+	align-items: center;
+}
+
+.flex-item h3 { 
+	float: right;
+	padding-left: 25px;
+}
+
+.flex-item img {
+	float: right;
+	padding-left: 25px;
+}
+
+.white-text {
+	padding: 0 50px;
+	margin-top: 45px; 
+	text-align: right;
+}
+
+.photo {
+	text-align: right;
+	margin-top: 75px; 
+}
+
+.form-2 {
+	margin-left: 45px; 
+	margin-right: 0; 
+	text-align: right;
+}
+
+.section-7 p {
+	text-align: right;
+}
+
+.close-button i {
+	float: left; 
+}
+
+.contacts-map {
+	padding-right: 15px;
+	top: 30%;
+	right: 0;
+}
+
+.contacts-map img {
+	padding: 20px 0;
+	float: right;
 }

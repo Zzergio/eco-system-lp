@@ -5,10 +5,10 @@ $phone=$_POST['user-phone'];
 $email=$_POST['user-email'];
 $to = "s.rieznyk@gmail.com, info@system-eco.ru";
 
-$subject = "Заявка Eco System LP";
+$subject = "Request from Eco System LP";
 
 $message = "
-<p>Пришла заявка с сайта</p>
+<p>New request came from the site</p>
 <strong>Name:</strong> ".htmlspecialchars($name)."<br /><br />
 <strong>Email:</strong> ".htmlspecialchars($email)." <br /><br />
 <strong>Phone:</strong> ".htmlspecialchars($phone);
@@ -21,14 +21,14 @@ $mail_status = mail($mail_to, $subject, $body_message, $headers);
 
 if ($mail_status) { ?>
     <script language="javascript" type="text/javascript">
-        alert('\n\n Спасибо! Ваша заявка получена и будет обработана в ближайшее время');
+        alert('\n\n Thanks! Your request has been received and will be processed shortly.');
         window.location = 'index.html';
     </script>
 <?php
 }
 else { ?>
     <script language="javascript" type="text/javascript">
-        alert('Произошла ошибка, попробуйте позже.');
+        alert('An error has occurred, try again later.');
         window.location = 'index.html';
     </script>
 <?php
