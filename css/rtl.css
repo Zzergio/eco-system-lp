@@ -1,0 +1,67 @@
+.ltr {
+	direction: ltr;
+}
+
+.rtl {
+	unicode-bidi: bidi-override; 
+	direction: rtl; 
+	text-align: right;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.ico-phone {
+	padding-left: 15px;
+}
+
+.flags {
+	flex-direction: row;
+}
+
+.small-contact {
+	text-align: right;
+}
+
+.section-1 h1 {
+	text-align: right;
+}
+
+.section-1 p {
+	text-align: right;
+	unicode-bidi: bidi-override; 
+	direction: rtl; 
+}
+
+.form-1 h3 {
+	text-align: right;
+}
+
+.input ::-webkit-input-placeholder {
+	font-size: 18px;
+	color:#fff;
+}
+
+.input ::-moz-placeholder {
+	font-size: 18px;
+	color:#fff;
+} 
+
+.input :-moz-placeholder {
+	font-size: 18px;
+	color:#fff;
+} 
+
+.input :-ms-input-placeholder {
+	font-size: 18px;
+	color:#fff;
+}
+
+.services p {
+	font-size: 24px;
+	margin-right: 25px;
+	unicode-bidi: bidi-override; 
+	direction: rtl; 
+}
