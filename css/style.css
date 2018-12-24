@@ -669,6 +669,9 @@ div.black-bg {
 }	
 
 .close-button i {
+	position: absolute;
 	font-size: 32px;
-	float: right; 
+	top: 10px;
+	right: 10px;
+	color: black;
 }

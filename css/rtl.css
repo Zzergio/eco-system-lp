@@ -170,7 +170,11 @@ span.green-text {
 }
 
 .close-button i {
-	float: left; 
+	position: absolute;
+	font-size: 32px;
+	top: 10px;
+	left: 10px;
+	color: black;
 }
 
 .contacts-map {
