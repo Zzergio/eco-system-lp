@@ -17,6 +17,10 @@
 	padding-left: 15px;
 }
 
+.logo {
+	width: 288px;
+}
+
 .flags {
 	flex-direction: row;
 }
@@ -108,6 +112,12 @@
 	padding-right: 25px;
 }
 
+@media screen and (max-width: 721px) {
+.col2 {
+	padding-right: 0;
+}	
+}
+
 .green-box {
 	display: flex;
 	align-items: center;
@@ -186,4 +196,10 @@ span.green-text {
 .contacts-map img {
 	padding: 20px 0;
 	float: right;
+}
+
+@media screen and (max-width: 721px) {
+.contacts-map {
+	padding-right: 25px;
+}
 }

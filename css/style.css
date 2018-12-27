@@ -47,7 +47,11 @@ body {
 .logo {
 	margin: 0;
 	padding: 0;
-	width: 288px;
+	height: 107px;
+}
+
+.logo img {
+	height: 107px;
 }
 
 .ico-phone {

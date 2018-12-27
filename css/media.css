@@ -255,7 +255,7 @@ span.green-text {
 	width: 100%; 
 	top: 100%;
 	margin: 0;
-	padding: 0;
+	padding: 0 25px;
 }
 
 .popup {
